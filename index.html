@@ -3,21 +3,289 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Site Coming Soon</title>
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#f1f5f9;color:#1C1F24;min-height:100vh;display:flex;align-items:center;justify-content:center}
-.card{text-align:center;background:#fff;border-radius:16px;padding:3rem 2.5rem;box-shadow:0 1px 3px rgba(0,0,0,.08);max-width:480px;margin:1rem}
-h1{font-size:1.5rem;margin-bottom:.5rem}
-p{color:#5F6B7A;line-height:1.6}
-.brand{color:#2EA8FF;font-weight:700}
-</style>
+<title>Friday Harbor Bed and Breakfast — A Quiet Homestead in the San Juan Islands</title>
+<meta name="description" content="An 1880s homestead with a self-contained guest cottage on San Juan Island. Wake to fresh homemade bread, hot coffee, and quiet island mornings.">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="card">
-<h1>Your site is being set up</h1>
-<p>We're getting everything ready for you. Check back soon!</p>
-<p style="margin-top:1.5rem;font-size:.85rem">Powered by <a href="https://freewave.dev" style="color:#2EA8FF;font-weight:700;text-decoration:none">Freewave.dev</a></p>
-</div>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark">F</span>
+      <span>Friday Harbor B&amp;B</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#story">The Homestead</a></li>
+      <li><a href="#cottage">The Cottage</a></li>
+      <li><a href="#island">The Island</a></li>
+      <li><a href="#inquire">Reservations</a></li>
+    </ul>
+    <a href="#inquire" class="nav-cta">Check Availability</a>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="hero-bg">
+    <img src="https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?w=2000&q=80&auto=format&fit=crop" alt="A weathered farmhouse at dusk surrounded by tall grass and evergreens.">
+  </div>
+  <div class="container hero-inner">
+    <span class="eyebrow">San Juan Island · Est. 1880s</span>
+    <h1>A quiet <span class="accent">homestead</span><br>in the heart of the islands.</h1>
+    <p class="lede">Friday Harbor Bed &amp; Breakfast is a period-appropriate dwelling with a self-contained guest cottage — a peaceful place to slow down, listen to the ferry horns, and wake up to the smell of Debbie's fresh-baked bread.</p>
+    <div class="hero-actions">
+      <a href="#inquire" class="btn btn-primary">Reserve Your Stay</a>
+      <a href="#story" class="btn btn-ghost">Our Story →</a>
+    </div>
+  </div>
+  <div class="hero-meta">
+    <div class="container">
+      <span><span class="dot"></span> Friday Harbor, WA</span>
+      <span><span class="dot"></span> Detached Guest Cottage</span>
+      <span><span class="dot"></span> Homemade Bread Included</span>
+    </div>
+  </div>
+</section>
+
+<section class="story" id="story">
+  <div class="container">
+    <div class="story-grid">
+      <div class="story-text">
+        <span class="eyebrow">Our Story</span>
+        <h2>An original homestead, lovingly kept.</h2>
+        <p>Tucked into the rolling hills of San Juan Island, our home is one of the original homesteads on the island — built in the 1880s and quietly cared for ever since. The floors creak a little. The light through the kitchen window is the same it was a century ago.</p>
+        <p>What was once a working farmstead is now a place for travelers to land softly. The main house is ours; the detached cottage out back is entirely yours — a small, private world set apart by garden and quiet.</p>
+        <p>And when you arrive, you'll find a warm loaf of Debbie's homemade bread waiting on the kitchen counter. It's a small thing, and it's the whole point.</p>
+        <p class="signature">— Debbie &amp; the homestead</p>
+      </div>
+      <div class="story-image">
+        <div class="story-badge"><span><strong>140+</strong>years of quiet</span></div>
+        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1200&q=80&auto=format&fit=crop" alt="A rustic loaf of fresh homemade bread on a wooden cutting board.">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="features">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Why guests return</span>
+      <h2>Small touches. Big quiet.</h2>
+      <p>We don't try to be a hotel. We try to be the kind of stop you'll think about months later, when winter sets in and you want to go back.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature">
+        <div class="feature-icon">🍞</div>
+        <h3>Debbie's fresh bread</h3>
+        <p>A warm loaf is waiting on the counter when you arrive — baked that morning, sliced when you're ready, paired beautifully with island butter and quiet mornings.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🏡</div>
+        <h3>Your own cottage</h3>
+        <p>The detached guest house is fully self-contained: kitchenette, private bath, soft linens, and a porch of your own. You'll feel like you live here — because for a few days, you do.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🌲</div>
+        <h3>The whole island</h3>
+        <p>Whale-watching boats, lavender farms, the Friday Harbor waterfront, and the slow back roads of San Juan Island — all within a short drive or a long, lovely walk.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cottage" id="cottage">
+  <div class="container">
+    <div class="cottage-grid">
+      <div class="cottage-images">
+        <div class="img tall">
+          <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=900&q=80&auto=format&fit=crop" alt="A cozy cottage bedroom with white linens and morning light.">
+        </div>
+        <div class="img">
+          <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80&auto=format&fit=crop" alt="A small, light-filled cottage kitchen.">
+        </div>
+        <div class="img">
+          <img src="https://images.unsplash.com/photo-1519643381401-22c77e60520e?w=800&q=80&auto=format&fit=crop" alt="A clawfoot tub by a window with morning light.">
+        </div>
+      </div>
+      <div class="cottage-text">
+        <span class="eyebrow">The Cottage</span>
+        <h2>A private guest house, set apart from the main home.</h2>
+        <p>The cottage sits a short stroll from the main house — close enough for a fresh loaf of bread, far enough for a true escape. It sleeps two comfortably, with thoughtful period touches and modern comforts where they matter most.</p>
+        <ul class="cottage-list">
+          <li>Queen bed with linen sheets &amp; a wool blanket for cool island nights</li>
+          <li>Private bath with a deep clawfoot tub and walk-in shower</li>
+          <li>Kitchenette with kettle, drip coffee, and a small cast-iron stove</li>
+          <li>Wood-floored porch with two chairs and a view of the garden</li>
+          <li>Books, blankets, and a record player — no televisions</li>
+          <li>Fresh-cut flowers and that loaf of bread on arrival</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="quote">
+  <div class="container">
+    <blockquote>The cottage felt like our own small house for the weekend. The bread on the kitchen counter — still warm — was the kindest welcome I can remember.</blockquote>
+    <cite>— Recent Guest, Returning Each Summer Since 2019</cite>
+  </div>
+</section>
+
+<section class="island" id="island">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Outside Your Door</span>
+      <h2>San Juan Island, at the pace it deserves.</h2>
+      <p>From orca pods in the Salish Sea to a working lavender farm down the road, Friday Harbor is the rare town that hasn't lost its softness. Here's how guests tend to spend their days.</p>
+    </div>
+    <div class="island-grid">
+      <div class="island-card">
+        <span class="num">01</span>
+        <h3>Whale Watching</h3>
+        <p>Boats leave from Friday Harbor each morning — resident orca pods, humpbacks, harbor seals, and bald eagles overhead.</p>
+      </div>
+      <div class="island-card">
+        <span class="num">02</span>
+        <h3>Friday Harbor Town</h3>
+        <p>A four-minute drive: independent shops, dock-fresh seafood, a great bookstore, and the ferry's coming and going.</p>
+      </div>
+      <div class="island-card">
+        <span class="num">03</span>
+        <h3>Lavender &amp; Lighthouses</h3>
+        <p>Pelindaba Lavender Farm in summer; Lime Kiln Point in any season, where the orcas come closest to shore.</p>
+      </div>
+      <div class="island-card">
+        <span class="num">04</span>
+        <h3>Slow Back Roads</h3>
+        <p>Rent bikes or drive the long way home. The island is small enough to know in a weekend, and large enough to keep surprising you.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="inquire" id="inquire">
+  <div class="container">
+    <div class="inquire-grid">
+      <div class="inquire-info">
+        <span class="eyebrow">Reservations</span>
+        <h2>Come stay with us.</h2>
+        <p>We host one party at a time, so the cottage is genuinely yours during your stay. Send us your dates and a note — we usually reply the same day, often with a bread recommendation.</p>
+        <ul class="contact-list">
+          <li>
+            <div>
+              <span class="label">Location</span>
+              <span class="value">Friday Harbor, San Juan Island, WA</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <span class="label">Hosts</span>
+              <span class="value">Debbie &amp; family</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <span class="label">Best season</span>
+              <span class="value">May through October (and quiet winter stays)</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <span class="label">Bring</span>
+              <span class="value">A rain jacket, a book, and an empty appetite</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <form class="form-card" method="POST" action="https://freewave.dev/customer-form.php?id=u6n2q9">
+        <input type="text" name="_website" value="" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;">
+        <input type="hidden" name="_form_type" value="reservation-inquiry">
+        <div class="form-row">
+          <div class="field">
+            <label for="first_name">First Name</label>
+            <input type="text" id="first_name" name="first_name" required maxlength="80" autocomplete="given-name">
+          </div>
+          <div class="field">
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" name="last_name" required maxlength="80" autocomplete="family-name">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required maxlength="120" autocomplete="email">
+          </div>
+          <div class="field">
+            <label for="phone">Phone (optional)</label>
+            <input type="tel" id="phone" name="phone" maxlength="40" autocomplete="tel">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="arrival_date">Arrival</label>
+            <input type="date" id="arrival_date" name="arrival_date" required>
+          </div>
+          <div class="field">
+            <label for="departure_date">Departure</label>
+            <input type="date" id="departure_date" name="departure_date" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="number_of_guests">Guests</label>
+          <select id="number_of_guests" name="number_of_guests" required>
+            <option value="1">1 guest</option>
+            <option value="2" selected>2 guests</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">A note for Debbie</label>
+          <textarea id="message" name="message" placeholder="Anything we should know — first visit, occasion, dietary notes, favorite bread…" maxlength="1500"></textarea>
+        </div>
+        <button type="submit" class="btn btn-solid">Send Inquiry</button>
+        <p class="form-fine">We reply personally within a day — usually sooner.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="brand">
+          <span class="brand-mark">F</span>
+          <span>Friday Harbor B&amp;B</span>
+        </div>
+        <p>A small, lovingly kept 1880s homestead with a self-contained guest cottage on San Juan Island.</p>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li><a href="#story">The Homestead</a></li>
+          <li><a href="#cottage">The Cottage</a></li>
+          <li><a href="#island">The Island</a></li>
+          <li><a href="#inquire">Reservations</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Find Us</h4>
+        <ul>
+          <li>Friday Harbor, WA</li>
+          <li>San Juan Island</li>
+          <li>By ferry from Anacortes</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© Friday Harbor Bed &amp; Breakfast. All rights reserved.</span>
+      <span>Built with care · Powered by <a href="https://freewave.dev">Freewave</a></span>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>
